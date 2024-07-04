@@ -9,3 +9,10 @@ html {
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+h1, 
+h2, 
+h3,
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+} 
