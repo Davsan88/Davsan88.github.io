@@ -15,7 +15,7 @@
     </h1>
     <div class="hidden sm:flex items-center gap-4">
         {#each tabs as tab, index}
-            <a>
+            <a href={tab.link} class="duration-200 hover:text-violet-400">
                 <p>{tab.name}</p>
             </a>
         {/each}
