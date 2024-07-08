@@ -20,5 +20,5 @@
             </a>
         {/each}
     </div>
-    <a class=blueShadow
+    <a></a>
 </header>
