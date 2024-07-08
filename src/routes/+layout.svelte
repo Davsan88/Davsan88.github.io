@@ -25,7 +25,7 @@
       <i class="fa-solid fa-arrow-up" />
     </button>
   </div>
-  <Header />
+  <Header y={y}/>
   <slot />
   <Footer />
 </div>
