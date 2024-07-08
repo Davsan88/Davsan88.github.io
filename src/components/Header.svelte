@@ -1,5 +1,10 @@
 <script>
     export let y;
+
+    let tabs = [
+        {name: 'Projects', '#projects'},
+        {name: 'About Me', '#About Me'},
+    ]
 </script>
 
 <header>
@@ -11,5 +16,6 @@
             <a>
                 <p>{tab.name}</p>
             </a>
+        {/each}
     </div>
 </header>
