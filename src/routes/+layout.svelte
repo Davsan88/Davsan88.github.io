@@ -30,4 +30,4 @@
   <Footer />
 </div>
 
-<svelte:window bind:scrollY={y} bind:innerHeight={innerHeight} bind:innerWidth />
+<svelte:window bind:scrollY={y} bind:innerHeight={innerHeight} bind:innerWidth={innerWidth} />
