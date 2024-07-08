@@ -6,5 +6,8 @@
     <h1>
         <b>David</b> Sanchez
     </h1>
-    <div class=""></div>
+    <div class="">
+        {#each tabs as tab, index}
+            
+    </div>
 </header>
