@@ -13,7 +13,7 @@
     <h1 class="font-medium">
         <b class="font-bold montserrat">David</b> Sanchez
     </h1>
-    <div class="">
+    <div class="hidden sm:flex items-center gap-4">
         {#each tabs as tab, index}
             <a>
                 <p>{tab.name}</p>
