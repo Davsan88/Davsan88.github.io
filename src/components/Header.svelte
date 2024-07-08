@@ -8,6 +8,8 @@
     </h1>
     <div class="">
         {#each tabs as tab, index}
-            
+            <a>
+                <p>{tab.name}</p>
+            </a>
     </div>
 </header>
