@@ -21,7 +21,7 @@
         ? "opacity-full pointer-events-auto"
         : "opacity-0 pointer-events-none")}
   >
-    <button on:click={goTop}>
+    <button on:click={goTop} class="ml-auto rounded-full bg-slate-900 text-violet-400 px-3 sm:px-4 hover:bg-slate-800 cursor-pointer">
       <i class="fa-solid fa-arrow-up" />
     </button>
   </div>
