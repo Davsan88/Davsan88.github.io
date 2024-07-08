@@ -21,7 +21,7 @@
         ? "opacity-full pointer-events-auto"
         : "opacity-0 pointer-events-none")}
   >
-    <button>
+    <button on:click={goTop}>
       <i class="fa-solid fa-arrow-up" />
     </button>
   </div>
