@@ -20,7 +20,10 @@
             </a>
         {/each}
     </div>
-    <a></a>
+    <a href="#" target="_blank" class="blueShadow relative overflow-hidden px-5 group rounded-full bg-white text-slate-950">
+        
+        
+    </a>
 </header>
 
 <!-- 25:47 -->
