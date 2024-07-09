@@ -21,7 +21,7 @@
         {/each}
     </div>
     <a href="#" target="_blank" class="blueShadow relative overflow-hidden px-5 group rounded-full bg-white text-slate-950">
-        
+        <div class="absolute top-"/>
         
     </a>
 </header>
