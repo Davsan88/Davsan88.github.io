@@ -2,8 +2,8 @@
 
 </script>
 
-<main>
+<main class="flex flex-col flex-1 p-4">
     <section>
-        
+
     </section>
 </main>
