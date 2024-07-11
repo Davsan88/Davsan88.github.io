@@ -24,7 +24,7 @@
                 <h4 class="relative z-9">Get in touch &rarr;</h4>
             </a> 
         </div>
-        <div>
+        <div class="">
             <!-- 32:09 -->
         </div>
     </section>
