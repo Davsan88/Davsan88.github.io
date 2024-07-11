@@ -15,9 +15,9 @@
                 <span class="montserrat text-violet-400">Developer</span>
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
-                My <span class="montserrat text-violet-400">favorite tech</span> includes JavaScript, TailwindCSS & Python!
-                
-            </p> 
+                My <span class="montserrat text-violet-400">favorite tech</span> includes JavaScript, TailwindCSS & Python!                
+            </p>
+            <a class="blueShadow mx-auto lg:mr-auto text-base sm:text-lg md:text-xl montserrat relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"></a> 
         </div>
     </section>
 </main>
