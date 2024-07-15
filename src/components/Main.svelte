@@ -28,4 +28,11 @@
             <img src={"images/profilePicture.png"} alt="Profile Picture" class="object-cover z-[2] max-h-[70vh]"/>
         </div>
     </section>
+    
+    
+    
+    <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
+        
+
+    </section>
 </main>
