@@ -31,7 +31,7 @@
     
 
     <section id="projects" class="bg-blue-400 py-20 lg:py-32 flex flex-col gap-24">
-        <div class="bg-pink flex flex-col gap-2 text-center">
+        <div class="bg-green-400 flex flex-col gap-2 text-center">
             <h6 class="text-lg sm:text-xl md:text-2xl">
                 A few of my creative endeavors.
             </h6>
@@ -43,8 +43,16 @@
             <i class="fa-regular fa-circle-play"></i>
             <p>Watch the video</p>
         </a>
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+        <div class="bg-yellow-500 grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+            <Step step={steps[0]}>
+                
+            </Step>
+            <Step step={steps[1]}>
 
+            </Step>
+            <Step step={steps[2]}>
+
+            </Step>
         </div>
 
     </section>
