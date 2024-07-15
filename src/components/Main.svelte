@@ -24,7 +24,7 @@
                 <h4 class="relative z-9">Get in touch &rarr;</h4>
             </a> 
         </div>
-        <div class="bg-orange-600 relative">
+        <div class="bg-orange-600 relative shadow-2xl grid place-items-center">
             Hello there
         </div>
     </section>
