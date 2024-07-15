@@ -33,8 +33,11 @@
     
     <section id="projects" class="bg-blue-400 py-20 lg:py-32 flex flex-col gap-24">
         <div class="bg-pink flex flex-col gap-2 text-center">
-            <h6 class="text-lg sm:text-xl md:text-2xl"></h6>
-
+            <h6 class="text-lg sm:text-xl md:text-2xl">
+                A few of my creative endeavors.
+            </h6>
+            
+            <!-- Curious to <span class="" -->
         </div>
 
 
