@@ -1,5 +1,12 @@
 <script>
     import Step from "./Step.svelte";
+
+    let steps = [
+        {name: '', icon: ''},
+        {name: '', icon: ''},
+        {name: '', icon: ''},
+    ]
+
 </script>
 
 <main class="flex flex-col flex-1 p-4">
