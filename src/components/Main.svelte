@@ -1,4 +1,5 @@
 <script>
+    import Step from "./Step.svelte";
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -44,7 +45,7 @@
             <p>Watch the video</p>
         </a>
         <div class="bg-yellow-500 grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-            <Step step={steps[0]}>
+            <!-- <Step step={steps[0]}>
                 
             </Step>
             <Step step={steps[1]}>
@@ -52,7 +53,7 @@
             </Step>
             <Step step={steps[2]}>
 
-            </Step>
+            </Step> -->
         </div>
 
     </section>
