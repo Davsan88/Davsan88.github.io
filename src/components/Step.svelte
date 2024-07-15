@@ -13,6 +13,11 @@
         <i class={step.icon} />
     </div>
     <h3 class="font-medium text-xl sm:text-2xl md:text-3xl">{step.name}</h3>
+    <slot />
+    <div class="flex flex-1 justify-between gap-4 items-center">
+        <div
+            class="ml-auto cursor-pointer hover:text-slate-950 
+    </div>
 
 
 
