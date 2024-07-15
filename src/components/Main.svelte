@@ -52,9 +52,15 @@
             <p>Watch the video</p>
         </a>
         <div class="bg-yellow-500 grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-            {#each steps as step}
-                <Step step={steps}></Step>
-            {/each}    
+            <Step step={steps[0]}>
+                
+            </Step>
+            <Step step={steps[1]}>
+
+            </Step>
+            <Step step={steps[2]}>
+
+            </Step>
         </div>
 
     </section>
