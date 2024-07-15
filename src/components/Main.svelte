@@ -94,7 +94,10 @@
         <div 
             class="flex flex-col gap-2 text-center relative before:relative before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:relative after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700"
         >
-            <
+            <h6 class="text-lg sm:text-xl md:text-2xl">Want to know more?</h6>
+            <h3>
+                A bit <span class="montserrat text-violet-400">about</span> me.
+            </h3>
         
         </div>
     </section>
