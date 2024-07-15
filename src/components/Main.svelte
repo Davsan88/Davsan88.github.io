@@ -4,10 +4,10 @@
 <main class="flex flex-col flex-1 p-4">
     <section
         id="introPage"
-        class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14"
+        class="bg-white grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14"
     >
         <div
-            class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
+            class="bg-green-500 flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
                 Hi! I'm <span class="montserrat text-violet-400">David</span>
@@ -31,8 +31,11 @@
     
     
     
-    <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
-        
+    <section id="projects" class="bg-blue-400 py-20 lg:py-32 flex flex-col gap-24">
+        <div class="bg-pink flex flex-col gap-2 text-center">
+
+        </div>
+
 
     </section>
 </main>
