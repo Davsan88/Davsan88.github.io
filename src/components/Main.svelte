@@ -2,9 +2,9 @@
     import Step from "./Step.svelte";
 
     let steps = [
-        {name: '', icon: ''},
-        {name: '', icon: ''},
-        {name: '', icon: ''},
+        {name: 'Davstore', icon: 'fa-solid fa-cart-shopping'},
+        {name: 'Ultimate Todos', icon: 'fa-solid fa-list-check'},
+        {name: 'Pokedex', icon: 'fa-solid fa-diagram-project'},
     ]
 
 </script>
@@ -52,7 +52,7 @@
             <p>Watch the video</p>
         </a>
         <div class="bg-yellow-500 grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-            <!-- <Step step={steps[0]}>
+            <Step step={steps[0]}>
                 
             </Step>
             <Step step={steps[1]}>
@@ -60,7 +60,7 @@
             </Step>
             <Step step={steps[2]}>
 
-            </Step> -->
+            </Step>
         </div>
 
     </section>
