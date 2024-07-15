@@ -53,7 +53,13 @@
         </a>
         <div class="bg-yellow-500 grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
-                
+                <p>
+                    Davstore is a a merchanising store created with <strong
+                        class="text-violet-400"
+                        >Next.js, Commerce.js, Stripe & Node.js + Express.js!</strong
+                    > Commerce.js is a product CMS and Stripe is used for all transaction
+                    handling.
+                </p>
             </Step>
             <Step step={steps[1]}>
 
