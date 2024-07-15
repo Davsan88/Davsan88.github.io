@@ -39,11 +39,11 @@
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
                 Curious to <span class="montserrat text-violet-400">see</span> my work?
             </h3>
-            <a href="" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
-                <i class="fa-regular fa-circle-play"></i>
-                <p>Watch the video</p>
-            </a>
         </div>
+        <a href="" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
+            <i class="fa-regular fa-circle-play"></i>
+            <p>Watch the video</p>
+        </a>
 
 
     </section>
