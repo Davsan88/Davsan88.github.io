@@ -37,7 +37,7 @@
                 A few of my creative endeavors.
             </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                Curious to <span class=""
+                Curious to <span class="montserrat text-violet-400">see</span> my work?
             </h3>
         </div>
 
