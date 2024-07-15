@@ -62,7 +62,16 @@
                 </p>
             </Step>
             <Step step={steps[1]}>
-
+                <p>
+                    Ultimate Todos is a Full Stack <strong
+                        class="text-violet-400">Next.js</strong
+                    >,
+                    <strong class="text-violet-400">Node.js + Express.js</strong
+                    >
+                    & <strong class="text-violet-400">Firebase</strong> CRUD application
+                    that allows a user to login, manage a tidy and efficacious todo
+                    list, and persist this information across devices.
+                </p>
             </Step>
             <Step step={steps[2]}>
 
