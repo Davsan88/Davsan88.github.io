@@ -74,7 +74,16 @@
                 </p>
             </Step>
             <Step step={steps[2]}>
-
+                <p>
+                    The Pokédex is a <strong class="text-violet-400"
+                        >SvelteKit & TailwindCSS</strong
+                    >
+                    web application, hosted on
+                    <strong class="text-violet-400">Netlify</strong>, that
+                    consumes and caches the
+                    <strong class="text-violet-400">Pokémon API</strong>
+                    to display all Pokémon information. Gotta catch them all!
+                </p>
             </Step>
         </div>
 
