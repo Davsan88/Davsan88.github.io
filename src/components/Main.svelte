@@ -25,7 +25,7 @@
             </a> 
         </div>
         <div class="bg-orange-600 relative shadow-2xl grid place-items-center">
-            <image src={"images/profilePicture.png}"/>
+            <img src={"images/profilePicture.png"} alt="Profile Picture"/>
         </div>
     </section>
 </main>
