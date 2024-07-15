@@ -157,7 +157,7 @@
                 </div>
             {/each}
         </div>
-        <h5> The <span class="text-violet-400">Complete</span> Package</h5>
+        <h5 class="text-2xl sm:text-3xl font-semibold text-center montserrat"> The <span class="text-violet-400 montserrat">Complete</span> Package</h5>
         <div class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full">
             <table class="bg-white text-slate-700 rounded text-center">
                 <thead class="border-b border-solid border-slate-200">
@@ -216,5 +216,6 @@
         <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
             <p>Scroll to see more &rarr;</p>
         </div>
+        <p class="mx-auto">Ready to embrace the <span class="text-violet-400 montserrat">future</span>?</p>
     </section>
 </main>
