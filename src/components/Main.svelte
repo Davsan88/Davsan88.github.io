@@ -29,8 +29,7 @@
         </div>
     </section>
     
-    
-    
+
     <section id="projects" class="bg-blue-400 py-20 lg:py-32 flex flex-col gap-24">
         <div class="bg-pink flex flex-col gap-2 text-center">
             <h6 class="text-lg sm:text-xl md:text-2xl">
@@ -44,7 +43,9 @@
             <i class="fa-regular fa-circle-play"></i>
             <p>Watch the video</p>
         </a>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
 
+        </div>
 
     </section>
 </main>
