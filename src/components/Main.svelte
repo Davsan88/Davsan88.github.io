@@ -4,7 +4,7 @@
     let steps = [
         {name: 'Davstore', icon: 'fa-solid fa-cart-shopping'},
         {name: 'Ultimate Todos', icon: 'fa-solid fa-list-check'},
-        {name: 'Pokedex', icon: 'fa-solid fa-diagram-project'},
+        {name: 'Pokédex', icon: 'fa-solid fa-diagram-project'},
     ]
 
 </script>
