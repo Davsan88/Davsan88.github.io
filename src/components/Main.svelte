@@ -1,5 +1,6 @@
 <script>
-    import Step from "./Step.svelte";
+    import { createEventDispatcher } from "svelte";
+import Step from "./Step.svelte";
 
     let steps = [
         {name: 'Davstore', icon: 'fa-solid fa-cart-shopping'},
@@ -7,7 +8,7 @@
         {name: 'Pokédex', icon: 'fa-solid fa-diagram-project'},
     ]
 
-    let benfits = [
+    let benefits = [
         {name: 'a Self-Taught Developer Driven by Passion', description: 'My transition into the world of software development is a testament to my passion for technology and continuous learning. Starting from scratch, I immersed myself in Python, HTML, CSS, and JavaScript, utilizing free online resources and hands-on projects on GitHub. This self-driven journey has not only equipped me with technical skills but also ignited a deep appreciation for creative problem-solving. This relentless drive to learn and grow keeps me inspired and motivated to contribute to innovative tech projects.'},
         {name: 'a Leader Who Values Effective Communication', description: 'Throughout my career, I\'ve discovered the importance of leadership and clear communication. Whether managing customer accounts at Envelopes Ltd or coordinating with stakeholders at Crowdcube, I have always prioritized building strong relationships and fostering a collaborative environment. My ability to communicate effectively has been key in leading teams, resolving conflicts, and ensuring everyone is on the same page. These experiences have shaped me into a leader who values transparency, empathy, and teamwork, qualities that I bring to every project and team I join.'},
         {name: 'Passionate About Personal Growth and New Challenges', description: 'I am driven by a relentless pursuit of personal and professional growth. From learning new programming languages to adapting to diverse roles across various industries, I thrive on challenges that push my boundaries. My journey from hospitality to tech is a reflection of my adaptability and eagerness to embrace new opportunities. Engaging in self-improvement activities, whether through technology, music, or sports, keeps me energized and curious. This passion for continuous growth and love for tackling new challenges defines my approach to both life and work.'},
@@ -108,9 +109,10 @@
         <p class="mx-auto montserrat font-semibold text-lg sm:text-xl md:text-2xl">I am . . .</p>
         <div class="flex flex-col gap-20 w-full mx-auto maz-w-[800px]">
             {#each benefits as benefit, index}
-            <div class="flex gap-6 sm:gap-8">
-
-            </div>
+                <div class="flex gap-6 sm:gap-8">
+                <p class="montserrat text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold"></p>
+                </div>
+            {/each}
         </div>
     </section>
 </main>
