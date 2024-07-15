@@ -30,10 +30,10 @@
 <main class="flex flex-col flex-1 p-4">
     <section
         id="introPage"
-        class="bg-white grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14"
+        class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14"
     >
         <div
-            class="bg-green-500 flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
+            class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
                 Hi! I'm <span class="montserrat text-violet-400">David</span>
@@ -55,7 +55,7 @@
                 <h4 class="relative z-9">Get in touch &rarr;</h4>
             </a>
         </div>
-        <div class="bg-orange-600 relative shadow-2xl grid place-items-center">
+        <div class="relative shadow-2xl grid place-items-center">
             <img
                 src={"images/profilePicture.png"}
                 alt="Profile Picture"
@@ -66,9 +66,9 @@
 
     <section
         id="projects"
-        class="bg-blue-400 py-20 lg:py-32 flex flex-col gap-24"
+        class="py-20 lg:py-32 flex flex-col gap-24"
     >
-        <div class="bg-green-400 flex flex-col gap-2 text-center">
+        <div class="flex flex-col gap-2 text-center">
             <h6 class="text-lg sm:text-xl md:text-2xl">
                 A few of my creative endeavors.
             </h6>
@@ -86,7 +86,7 @@
             <p>Watch the video</p>
         </a>
         <div
-            class="bg-yellow-500 grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10"
+            class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10"
         >
             <Step step={steps[0]}>
                 <p>
@@ -125,7 +125,7 @@
     </section>
     <section
         id="about"
-        class="bg-orange-500 py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
+        class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
     >
         <div
             class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
@@ -157,5 +157,6 @@
                 </div>
             {/each}
         </div>
+
     </section>
 </main>
