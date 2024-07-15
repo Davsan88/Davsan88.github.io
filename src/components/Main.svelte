@@ -36,8 +36,9 @@
             <h6 class="text-lg sm:text-xl md:text-2xl">
                 A few of my creative endeavors.
             </h6>
-            
-            <!-- Curious to <span class="" -->
+            <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+                Curious to <span class=""
+            </h3>
         </div>
 
 
