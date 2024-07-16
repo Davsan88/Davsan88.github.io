@@ -5,6 +5,13 @@
         Connect with me &darr;
     </p>
     <div clas="flex flex-col gap-4 items-center justify-center">
-        <p><b class="pr-2">Email</b> david.sanchez.martinez@outlook.com</p>
+        <p><b class="pr-2">Email</b> 
+            <a class="text-violet-400" href="mailto: david.sanchez.martinez@outlook.com">david.sanchez.martinez@outlook.com</a></p>
+        <p><b class="pr-2">GitHub</b>
+            <a class="text-violet-400" target="_blank" href="https://github.com/Davsan88">Davsan88
+
+            </a>
+        </p>
+
     </div>
 </footer>
