@@ -45,7 +45,7 @@
                 includes JavaScript, TailwindCSS & Python!
             </p>
             <a
-                class="blueShadow mx-auto lg:mr-auto text-base sm:text-lg md:text-xl montserrat relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer"
+                class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl montserrat relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer"
                 href="https://www.linkedin.com/in/david-sanchez-1995ab268/"
                 target="_blank"
             >
