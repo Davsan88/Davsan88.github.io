@@ -4,7 +4,7 @@
 
     let steps = [
         { name: "Crystal Math", icon: "fa-solid fa-cart-shopping" },
-        { name: "Davnilla", icon: "fa-solid fa-list-check" },
+        { name: "Davnilla To-Do App", icon: "fa-solid fa-list-check" },
         // { name: "Pokédex", icon: "fa-solid fa-diagram-project" },
     ];
 
