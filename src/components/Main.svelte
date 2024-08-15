@@ -86,7 +86,7 @@
             <p>Watch the video</p>
         </a> -->
         <div
-            class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10"
+            class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-10"
         >
             <a href="https://crystal-math-web.netlify.app/" target="_blank">
                 <Step step={steps[0]}>
