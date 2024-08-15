@@ -88,26 +88,30 @@
         <div
             class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10"
         >
-            <Step step={steps[0]}>
-                <p>
-                    Crystal Math is a static and responsive webpage created with <strong
+            <a href="https://crystal-math-web.netlify.app/" target="_blank">
+                <Step step={steps[0]}>
+                    <p>
+                        Crystal Math is a static and responsive webpage created with <strong
                         class="text-violet-400"
                         >TailwindCSS and HTML</strong
-                    > for a classic Vanilla approach.
-                </p>
-            </Step>
-            <Step step={steps[1]}>
-                <p>
-                    Davnilla To-Do is a <strong
+                        > for a classic Vanilla approach.
+                    </p>
+                </Step>
+            </a>
+            <a href="https://davnilla-to-do-app.netlify.app/" target="_blank">
+                <Step step={steps[1]}>
+                    <p>
+                        Davnilla To-Do is a <strong
                         class="text-violet-400">HTML</strong
-                    >,
-                    <strong class="text-violet-400">CSS</strong
-                    >
-                    & <strong class="text-violet-400">JavaScript</strong> CRUD application
-                    that allows a user to manage a tidy and efficacious todo
-                    list, and persist this information across devices.
-                </p>
-            </Step>
+                        >,
+                        <strong class="text-violet-400">CSS</strong
+                            >
+                            & <strong class="text-violet-400">JavaScript</strong> CRUD application
+                            that allows a user to manage a tidy and efficacious todo
+                            list, and persist this information across devices.
+                        </p>
+                    </Step>
+                </a>
             <!-- <Step step={steps[2]}>
                 <p>
                     The Pokédex is a <strong class="text-violet-400"
