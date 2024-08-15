@@ -3,9 +3,9 @@
     import Step from "./Step.svelte";
 
     let steps = [
-        { name: "Davstore", icon: "fa-solid fa-cart-shopping" },
-        { name: "Ultimate Todos", icon: "fa-solid fa-list-check" },
-        { name: "Pokédex", icon: "fa-solid fa-diagram-project" },
+        { name: "Crystal Math", icon: "fa-solid fa-cart-shopping" },
+        { name: "Davnilla", icon: "fa-solid fa-list-check" },
+        // { name: "Pokédex", icon: "fa-solid fa-diagram-project" },
     ];
 
     let benefits = [
@@ -90,26 +90,25 @@
         >
             <Step step={steps[0]}>
                 <p>
-                    Davstore is a a merchanising store created with <strong
+                    Crystal Math is a static and responsive webpage created with <strong
                         class="text-violet-400"
-                        >Next.js, Commerce.js, Stripe & Node.js + Express.js!</strong
-                    > Commerce.js is a product CMS and Stripe is used for all transaction
-                    handling.
+                        >TailwindCSS and HTML</strong
+                    > for a classic Vanilla approach.
                 </p>
             </Step>
             <Step step={steps[1]}>
                 <p>
-                    Ultimate Todos is a Full Stack <strong
-                        class="text-violet-400">Next.js</strong
+                    Davnilla To-Do is a <strong
+                        class="text-violet-400">HTML</strong
                     >,
-                    <strong class="text-violet-400">Node.js + Express.js</strong
+                    <strong class="text-violet-400">CSS</strong
                     >
-                    & <strong class="text-violet-400">Firebase</strong> CRUD application
-                    that allows a user to login, manage a tidy and efficacious todo
+                    & <strong class="text-violet-400">JavaScript</strong> CRUD application
+                    that allows a user to manage a tidy and efficacious todo
                     list, and persist this information across devices.
                 </p>
             </Step>
-            <Step step={steps[2]}>
+            <!-- <Step step={steps[2]}>
                 <p>
                     The Pokédex is a <strong class="text-violet-400"
                         >SvelteKit & TailwindCSS</strong
@@ -120,7 +119,7 @@
                     <strong class="text-violet-400">Pokémon API</strong>
                     to display all Pokémon information. Gotta catch them all!
                 </p>
-            </Step>
+            </Step> -->
         </div>
     </section>
     <section
