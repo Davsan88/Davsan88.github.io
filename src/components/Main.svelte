@@ -64,10 +64,7 @@
         </div>
     </section>
 
-    <section
-        id="projects"
-        class="py-20 lg:py-32 flex flex-col gap-24"
-    >
+    <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
         <div class="flex flex-col gap-2 text-center">
             <h6 class="text-lg sm:text-xl md:text-2xl">
                 A few of my creative endeavors.
@@ -85,15 +82,13 @@
             <i class="fa-regular fa-circle-play"></i>
             <p>Watch the video</p>
         </a> -->
-        <div
-            class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-10"
-        >
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-10">
             <a href="https://crystal-math-web.netlify.app/" target="_blank">
                 <Step step={steps[0]}>
                     <p>
-                        Crystal Math is a static and responsive webpage created with <strong
-                        class="text-violet-400"
-                        >TailwindCSS and HTML</strong
+                        Crystal Math is a static and responsive webpage created
+                        with <strong class="text-violet-400"
+                            >TailwindCSS and HTML</strong
                         > for a classic Vanilla approach.
                     </p>
                 </Step>
@@ -101,29 +96,24 @@
             <a href="https://davnilla-to-do-app.netlify.app/" target="_blank">
                 <Step step={steps[1]}>
                     <p>
-                        Davnilla To-Do is a <strong
-                        class="text-violet-400">HTML</strong
+                        Davnilla To-Do is a <strong class="text-violet-400"
+                            >HTML</strong
                         >,
-                        <strong class="text-violet-400">CSS</strong
-                            >
-                            & <strong class="text-violet-400">JavaScript</strong> CRUD application
-                            that allows a user to manage a tidy and efficacious todo
-                            list, and persist this information across devices.
-                        </p>
-                    </Step>
-                </a>
-            <!-- <Step step={steps[2]}>
+                        <strong class="text-violet-400">CSS</strong>
+                        & <strong class="text-violet-400">JavaScript</strong> CRUD
+                        application that allows a user to manage a tidy and efficacious
+                        todo list, and persist this information across devices.
+                    </p>
+                </Step>
+            </a>
+            <Step step={steps[2]}>
                 <p>
-                    The Pokédex is a <strong class="text-violet-400"
-                        >SvelteKit & TailwindCSS</strong
+                    The Airbnb Experiences Clone is a <strong class="text-violet-400"
+                        >React-based</strong
                     >
-                    web application, hosted on
-                    <strong class="text-violet-400">Netlify</strong>, that
-                    consumes and caches the
-                    <strong class="text-violet-400">Pokémon API</strong>
-                    to display all Pokémon information. Gotta catch them all!
+                    web application, that mimics the structure and layout of <strong class="text-violet-400">Airbnb's experiences</strong> section. It features <strong class="text-violet-400">reusable components</strong>, dynamic data rendering through props, and responsive design.
                 </p>
-            </Step> -->
+            </Step>
         </div>
     </section>
     <section
@@ -149,7 +139,7 @@
                     <p
                         class="montserrat text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold"
                     >
-                        0{index+1}
+                        0{index + 1}
                     </p>
                     <div class="flex flex-col gap-6 sm:gap-8">
                         <h3 class="text-2xl sm:text-3xl md:text-4xl">
@@ -160,16 +150,23 @@
                 </div>
             {/each}
         </div>
-        <h5 class="text-2xl sm:text-3xl font-semibold text-center montserrat"> The <span class="text-violet-400 montserrat">Complete</span> Package</h5>
-        <div class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full">
+        <h5 class="text-2xl sm:text-3xl font-semibold text-center montserrat">
+            The <span class="text-violet-400 montserrat">Complete</span> Package
+        </h5>
+        <div
+            class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
+        >
             <table class="bg-white text-slate-700 rounded text-center">
                 <thead class="border-b border-solid border-slate-200">
                     <tr class="">
-                        <th/>
+                        <th />
                         <th class="whitespace-nowrap p-2 px-4">Candidate #1</th>
                         <th class="whitespace-nowrap p-2 px-4">Candidate #2</th>
                         <th class="whitespace-nowrap p-2 px-4">Candidate #3</th>
-                        <th class="whitespace-nowrap bg-violet-700 text-white p-4 px-8">Me</th>
+                        <th
+                            class="whitespace-nowrap bg-violet-700 text-white p-4 px-8"
+                            >Me</th
+                        >
                     </tr>
                 </thead>
                 <tbody>
@@ -219,6 +216,10 @@
         <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
             <p>Scroll to see more &rarr;</p>
         </div>
-        <p class="mx-auto">Ready to embrace the <span class="text-violet-400 montserrat">future</span>?</p>
+        <p class="mx-auto">
+            Ready to embrace the <span class="text-violet-400 montserrat"
+                >future</span
+            >?
+        </p>
     </section>
 </main>
