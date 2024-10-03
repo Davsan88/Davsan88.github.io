@@ -12,7 +12,7 @@
         {
             name: "a Self-Taught Developer Driven by Passion",
             description:
-                "My transition into the world of software development is a testament to my passion for technology and continuous learning. Starting from scratch, I immersed myself in Python, HTML, CSS, and JavaScript, utilizing free online resources and hands-on projects on GitHub. This self-driven journey has not only equipped me with technical skills but also ignited a deep appreciation for creative problem-solving. This relentless drive to learn and grow keeps me inspired and motivated to contribute to innovative tech projects.",
+                "My transition into the world of software development is a testament to my passion for technology and continuous learning. Starting from scratch, I immersed myself in  HTML, CSS, JavaScript, React, and Python, utilizing free online resources and hands-on projects on GitHub. This self-driven journey has not only equipped me with technical skills but also ignited a deep appreciation for creative problem-solving. This relentless drive to learn and grow keeps me inspired and motivated to contribute to innovative tech projects.",
         },
         {
             name: "a Leader Who Values Effective Communication",
