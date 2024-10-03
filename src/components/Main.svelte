@@ -106,14 +106,16 @@
                     </p>
                 </Step>
             </a>
-            <Step step={steps[2]}>
-                <p>
-                    The Airbnb Experiences Clone is a <strong class="text-violet-400"
+            <a href="https://bnb-experiences-clone-davsan.netlify.app/">
+                <Step step={steps[2]}>
+                    <p>
+                        The Airbnb Experiences Clone is a <strong class="text-violet-400"
                         >React-based</strong
-                    >
-                    web application, that mimics the structure and layout of <strong class="text-violet-400">Airbnb's experiences</strong> section. It features <strong class="text-violet-400">reusable components</strong>, dynamic data rendering through props, and responsive design.
-                </p>
-            </Step>
+                        >
+                        web application, that mimics the structure and layout of <strong class="text-violet-400">Airbnb's experiences</strong> section. It features <strong class="text-violet-400">reusable components</strong>, dynamic data rendering through props, and responsive design.
+                    </p>
+                </Step>
+            </a>
         </div>
     </section>
     <section
