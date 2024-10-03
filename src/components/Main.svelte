@@ -106,7 +106,8 @@
                     </p>
                 </Step>
             </a>
-            <a href="https://bnb-experiences-clone-davsan.netlify.app/">
+            <a href="https://bnb-experiences-clone-davsan.netlify.app/"
+            target="_blank">
                 <Step step={steps[2]}>
                     <p>
                         The Airbnb Experiences Clone is a <strong class="text-violet-400"
