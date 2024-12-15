@@ -5,7 +5,8 @@
     let steps = [
         { name: "Crystal Math", icon: "fa-solid fa-cart-shopping" },
         { name: "Davnilla To-Do App", icon: "fa-solid fa-list-check" },
-        { name: "Airbnb Experiences Clone", icon: "fa-brands fa-airbnb" },
+        { name: "Meme Generator", icon: "fa-brands fa-airbnb" },
+        // { name: "Airbnb Experiences Clone", icon: "fa-brands fa-airbnb" },
     ];
 
     let benefits = [
@@ -106,7 +107,18 @@
                     </p>
                 </Step>
             </a>
-            <a href="https://bnb-experiences-clone-davsan.netlify.app/"
+            <a href="https://meme-generator-davsan.netlify.app/"
+            target="_blank">
+                <Step step={steps[2]}>
+                    <p>
+                        The Meme Generator App is a <strong class="text-violet-400"
+                        >React-based</strong
+                        >
+                        web application designed for creating and customizing memes. It features <strong class="text-violet-400">dynamic state management, API integration</strong> to fetch meme data, and responsive design. Users can <strong class="text-violet-400">generate random meme images</strong> and overlay them with custom text, making it a fun and interactive project that showcases core React skills.
+                    </p>
+                </Step>
+            </a>
+            <!-- <a href="https://bnb-experiences-clone-davsan.netlify.app/"
             target="_blank">
                 <Step step={steps[2]}>
                     <p>
@@ -116,7 +128,7 @@
                         web application, that mimics the structure and layout of <strong class="text-violet-400">Airbnb's experiences</strong> section. It features <strong class="text-violet-400">reusable components</strong>, dynamic data rendering through props, and responsive design.
                     </p>
                 </Step>
-            </a>
+            </a> -->
         </div>
     </section>
     <section
