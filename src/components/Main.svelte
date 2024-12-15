@@ -5,7 +5,7 @@
     let steps = [
         { name: "Crystal Math", icon: "fa-solid fa-cart-shopping" },
         { name: "Davnilla To-Do App", icon: "fa-solid fa-list-check" },
-        { name: "Meme Generator", icon: "fa-brands fa-airbnb" },
+        { name: "Meme Generator", icon: "fa-solid fa-images" },
         // { name: "Airbnb Experiences Clone", icon: "fa-brands fa-airbnb" },
     ];
 
