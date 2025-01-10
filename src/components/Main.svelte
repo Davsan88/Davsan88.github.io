@@ -113,7 +113,20 @@
             >
                 <Step step={steps[1]}>
                     <p>
-                        
+                        The Chef Enzo App is a <strong class="text-violet-400"
+                            >React-based</strong
+                        >
+                        web application designed for creating personalized recipe
+                        suggestions. It features
+                        <strong class="text-violet-400"
+                            >API integration, serverless functions</strong
+                        >, and a clean, responsive design. Users can
+                        input ingredients they have on hand, and the app generates detailed recipes <strong class="text-violet-400"
+                        >using
+                        AI-powered recommendations</strong
+                        >, making it a practical and
+                        innovative project that demonstrates modern web
+                        development skills.
                     </p>
                 </Step>
             </a>
