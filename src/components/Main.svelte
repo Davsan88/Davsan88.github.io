@@ -3,10 +3,10 @@
     import Step from "./Step.svelte";
 
     let steps = [
+        { name: "Meme Generator", icon: "fa-solid fa-images" },
+        { name: "Chef Enzo", icon: "fa-solid fa-utensils" },
         { name: "Crystal Math", icon: "fa-solid fa-cart-shopping" },
         { name: "Davnilla To-Do App", icon: "fa-solid fa-list-check" },
-        { name: "Meme Generator", icon: "fa-solid fa-images" },
-        // { name: "Airbnb Experiences Clone", icon: "fa-brands fa-airbnb" },
     ];
 
     let benefits = [
@@ -84,8 +84,41 @@
             <p>Watch the video</p>
         </a> -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-10">
-            <a href="https://crystal-math-web.netlify.app/" target="_blank">
+            <a
+                href="https://meme-generator-davsan.netlify.app/"
+                target="_blank"
+            >
                 <Step step={steps[0]}>
+                    <p>
+                        The Meme Generator App is a <strong
+                            class="text-violet-400">React-based</strong
+                        >
+                        web application designed for creating and customizing memes.
+                        It features
+                        <strong class="text-violet-400"
+                            >dynamic state management, API integration</strong
+                        >
+                        to fetch meme data, and responsive design. Users can
+                        <strong class="text-violet-400"
+                            >generate random meme images</strong
+                        > and overlay them with custom text, making it a fun and
+                        interactive project that showcases core React skills.
+                    </p>
+                </Step>
+            </a>
+
+            <a
+                href=""
+                target="_blank"
+            >
+                <Step step={steps[1]}>
+                    <p>
+                        
+                    </p>
+                </Step>
+            </a>
+            <a href="https://crystal-math-web.netlify.app/" target="_blank">
+                <Step step={steps[2]}>
                     <p>
                         Crystal Math is a static and responsive webpage created
                         with <strong class="text-violet-400"
@@ -95,7 +128,7 @@
                 </Step>
             </a>
             <a href="https://davnilla-to-do-app.netlify.app/" target="_blank">
-                <Step step={steps[1]}>
+                <Step step={steps[3]}>
                     <p>
                         Davnilla To-Do is a <strong class="text-violet-400"
                             >HTML</strong
@@ -104,17 +137,6 @@
                         & <strong class="text-violet-400">JavaScript</strong> CRUD
                         application that allows a user to manage a tidy and efficacious
                         todo list, and persist this information across devices.
-                    </p>
-                </Step>
-            </a>
-            <a href="https://meme-generator-davsan.netlify.app/"
-            target="_blank">
-                <Step step={steps[2]}>
-                    <p>
-                        The Meme Generator App is a <strong class="text-violet-400"
-                        >React-based</strong
-                        >
-                        web application designed for creating and customizing memes. It features <strong class="text-violet-400">dynamic state management, API integration</strong> to fetch meme data, and responsive design. Users can <strong class="text-violet-400">generate random meme images</strong> and overlay them with custom text, making it a fun and interactive project that showcases core React skills.
                     </p>
                 </Step>
             </a>
