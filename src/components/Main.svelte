@@ -108,7 +108,7 @@
             </a>
 
             <a
-                href=""
+                href="https://chefenzo.netlify.app/"
                 target="_blank"
             >
                 <Step step={steps[1]}>
