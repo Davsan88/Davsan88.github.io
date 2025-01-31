@@ -1,22 +1,28 @@
 <script>
     import { createEventDispatcher } from "svelte";
     import Step from "./Step.svelte";
-    
-    
+
     let steps = [
         {
             name: "Pokédex",
             icon: "/images/pokedex.png",
             type: "image",
             href: "https://your-pokedex-link.netlify.app/",
-            description: "A dynamic app that fetches data from an external API to display information about various Pokémon..."
+            description: `The Pokédex App is a <strong  class="text-violet-400">React-based</strong>
+                        web application designed for exploring Pokémon data in an interactive way.
+                        It features <strong class="text-violet-400">API integration, local caching</strong> for optimized performance, and a clean, responsive design.
+                        Users can <strong class="text-violet-400">search, filter, and view</strong>
+                        detailed Pokémon stats, abilities, and types, making it a dynamic and
+                        engaging project that showcases <strong class="text-violet-400">advanced data fetching, state management,
+                        and UI optimization techniques</strong>.
+`,
         },
         {
             name: "Meme Generator",
-        icon: "fa-solid fa-images",
-        type: "fa",
-        href: "https://meme-generator-davsan.netlify.app/",
-        description: `The Meme Generator App is a <strong
+            icon: "fa-solid fa-images",
+            type: "fa",
+            href: "https://meme-generator-davsan.netlify.app/",
+            description: `The Meme Generator App is a <strong
                             class="text-violet-400">React-based</strong
                         >
                         web application designed for creating and customizing memes.
@@ -28,15 +34,14 @@
                         <strong class="text-violet-400"
                             >generate random meme images</strong
                         > and overlay them with custom text, making it a fun and
-                        interactive project that showcases core React skills.`
-
-    },
-    {
-        name: "Chef Enzo",
-        icon: "fa-solid fa-utensils",
-        type: "fa",
-        href: "https://chefenzo.netlify.app/",
-        description: `The Chef Enzo App is a <strong class="text-violet-400"
+                        interactive project that showcases core React skills.`,
+        },
+        {
+            name: "Chef Enzo",
+            icon: "/images/chef_enzo.png",
+            type: "image",
+            href: "https://chefenzo.netlify.app/",
+            description: `The Chef Enzo App is a <strong class="text-violet-400"
                             >React-based</strong
                         >
                         web application designed for creating personalized recipe
@@ -49,29 +54,31 @@
                         <strong class="text-violet-400"
                             >using AI-powered recommendations</strong
                         >, making it a practical and innovative project that
-                        demonstrates modern web development skills.`
-    },
-    {
-        name: "Davnilla To-Do App",
-        icon: "fa-solid fa-list-check",
-        type: "fa",
-        href: "https://davnilla-to-do-app.netlify.app/",
-        description: `Davnilla To-Do is a <strong class="text-violet-400"
-        >HTML</strong
-        >,
-        <strong class="text-violet-400">CSS</strong>
-        & <strong class="text-violet-400">JavaScript</strong> CRUD
-        application that allows a user to manage a tidy and efficacious
-        todo list, and persist this information across devices.
-        `
-    },
-    {
-        name: "Crystal Math",
-        icon: "fa-solid fa-cart-shopping",
-        type: "fa",
-        href: "https://crystal-math-web.netlify.app/",
-        description: "Crystal Math is a static and responsive webpage created with TailwindCSS and HTML for a classic Vanilla approach."
-    },
+                        demonstrates modern web development skills.`,
+        },
+        {
+            name: "Davnilla To-Do App",
+            icon: "fa-solid fa-list-check",
+            type: "fa",
+            href: "https://davnilla-to-do-app.netlify.app/",
+            description: `Davnilla To-Do is a <strong class="text-violet-400">feature-rich, intuitive</strong>
+task management application built with 
+<strong class="text-violet-400">HTML</strong>,
+<strong class="text-violet-400">CSS</strong>,
+and <strong class="text-violet-400">JavaScript</strong>. 
+Designed for efficiency and flexibility, it enables users to 
+<strong class="text-violet-400">create, update, delete, and persist</strong> tasks across sessions. 
+With a sleek, responsive design and a built-in <strong class="text-violet-400">dark mode</strong>, 
+Davnilla To-Do ensures an optimal user experience in any lighting condition.`,
+        },
+        {
+            name: "Crystal Math",
+            icon: "fa-solid fa-cart-shopping",
+            type: "fa",
+            href: "https://crystal-math-web.netlify.app/",
+            description:
+                "Crystal Math is a static and responsive webpage created with TailwindCSS and HTML for a classic Vanilla approach.",
+        },
     ];
 
     let benefits = [
@@ -150,14 +157,14 @@
         </a> -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-10">
             {#each steps as step}
-            <a href={step.href} target="_blank">
-                <Step step={step}>
-                    {#if step.description}
-                        <p>{@html step.description}</p>
-                    {/if}
-                </Step>
-            </a>
-        {/each}
+                <a href={step.href} target="_blank">
+                    <Step {step}>
+                        {#if step.description}
+                            <p>{@html step.description}</p>
+                        {/if}
+                    </Step>
+                </a>
+            {/each}
             <!-- <a href="https://bnb-experiences-clone-davsan.netlify.app/"
             target="_blank">
                 <Step step={steps[2]}>
