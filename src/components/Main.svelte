@@ -7,7 +7,7 @@
             name: "Pokédex",
             icon: "/images/pokedex.png",
             type: "image",
-            href: "https://your-pokedex-link.netlify.app/",
+            href: "https://pokedex-davsan.netlify.app/",
             description: `The Pokédex App is a <strong  class="text-violet-400">React-based</strong>
                         web application designed for exploring Pokémon data in an interactive way.
                         It features <strong class="text-violet-400">API integration, local caching</strong> for optimized performance, and a clean, responsive design.
