@@ -64,14 +64,6 @@
             description: `Davnilla To-Do is a <strong class="text-violet-400">feature-rich, intuitive</strong> task management application built with <strong class="text-violet-400">HTML</strong>, <strong class="text-violet-400">CSS</strong>, and <strong class="text-violet-400">JavaScript</strong>. Designed for efficiency and flexibility, it enables users to 
             <strong class="text-violet-400">create, update, delete, and  persist</strong> tasks across sessions. With a sleek, responsive design and a built-in <strong class="text-violet-400">dark mode</strong>, Davnilla To-Do ensures an optimal user experience in any lighting condition. `,
         },
-        {
-            name: "Crystal Math",
-            icon: "fa-solid fa-cart-shopping",
-            type: "fa",
-            href: "https://crystal-math-web.netlify.app/",
-            description:
-                "Crystal Math is a static and responsive webpage created with TailwindCSS and HTML for a classic Vanilla approach.",
-        },
     ];
 
     let benefits = [
@@ -140,7 +132,7 @@
                 work?
             </h3>
         </div>
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-18">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-18 auto-rows-fr">
             {#each steps as step}
                 <a href={step.href} target="_blank">
                     <Step {step}>
