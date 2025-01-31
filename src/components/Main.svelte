@@ -61,15 +61,8 @@
             icon: "fa-solid fa-list-check",
             type: "fa",
             href: "https://davnilla-to-do-app.netlify.app/",
-            description: `Davnilla To-Do is a <strong   class="text-violet-400">feature-rich, intuitive</   strong>
-                        task management application built with 
-                        <strong class="text-violet-400">HTML</strong>,
-                        <strong class="text-violet-400">CSS</strong>,
-                        and <strong class="text-violet-400">JavaScript</strong>. 
-                        Designed for efficiency and flexibility, it enables users to 
-                        <strong class="text-violet-400">create, update, delete, and                            persist</strong> tasks across sessions. 
-                        With a sleek, responsive design and a built-in <strong class="text-violet-400">dark mode</strong>, 
-                        Davnilla To-Do ensures an optimal user experience in any lighting condition.`,
+            description: `Davnilla To-Do is a <strong class="text-violet-400">feature-rich, intuitive</strong> task management application built with <strong class="text-violet-400">HTML</strong>, <strong class="text-violet-400">CSS</strong>, and <strong class="text-violet-400">JavaScript</strong>. Designed for efficiency and flexibility, it enables users to 
+            <strong class="text-violet-400">create, update, delete, and  persist</strong> tasks across sessions. With a sleek, responsive design and a built-in <strong class="text-violet-400">dark mode</strong>, Davnilla To-Do ensures an optimal user experience in any lighting condition. `,
         },
         {
             name: "Crystal Math",
