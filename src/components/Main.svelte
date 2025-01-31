@@ -61,15 +61,15 @@
             icon: "fa-solid fa-list-check",
             type: "fa",
             href: "https://davnilla-to-do-app.netlify.app/",
-            description: `Davnilla To-Do is a <strong class="text-violet-400">feature-rich, intuitive</strong>
-task management application built with 
-<strong class="text-violet-400">HTML</strong>,
-<strong class="text-violet-400">CSS</strong>,
-and <strong class="text-violet-400">JavaScript</strong>. 
-Designed for efficiency and flexibility, it enables users to 
-<strong class="text-violet-400">create, update, delete, and persist</strong> tasks across sessions. 
-With a sleek, responsive design and a built-in <strong class="text-violet-400">dark mode</strong>, 
-Davnilla To-Do ensures an optimal user experience in any lighting condition.`,
+            description: `Davnilla To-Do is a <strong   class="text-violet-400">feature-rich, intuitive</   strong>
+                        task management application built with 
+                        <strong class="text-violet-400">HTML</strong>,
+                        <strong class="text-violet-400">CSS</strong>,
+                        and <strong class="text-violet-400">JavaScript</strong>. 
+                        Designed for efficiency and flexibility, it enables users to 
+                        <strong class="text-violet-400">create, update, delete, and                            persist</strong> tasks across sessions. 
+                        With a sleek, responsive design and a built-in <strong class="text-violet-400">dark mode</strong>, 
+                        Davnilla To-Do ensures an optimal user experience in any lighting condition.`,
         },
         {
             name: "Crystal Math",
@@ -147,15 +147,7 @@ Davnilla To-Do ensures an optimal user experience in any lighting condition.`,
                 work?
             </h3>
         </div>
-        <!-- <a
-            href=""
-            target="_blank"
-            class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
-        >
-            <i class="fa-regular fa-circle-play"></i>
-            <p>Watch the video</p>
-        </a> -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-10">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-18">
             {#each steps as step}
                 <a href={step.href} target="_blank">
                     <Step {step}>
@@ -165,17 +157,6 @@ Davnilla To-Do ensures an optimal user experience in any lighting condition.`,
                     </Step>
                 </a>
             {/each}
-            <!-- <a href="https://bnb-experiences-clone-davsan.netlify.app/"
-            target="_blank">
-                <Step step={steps[2]}>
-                    <p>
-                        The Airbnb Experiences Clone is a <strong class="text-violet-400"
-                        >React-based</strong
-                        >
-                        web application, that mimics the structure and layout of <strong class="text-violet-400">Airbnb's experiences</strong> section. It features <strong class="text-violet-400">reusable components</strong>, dynamic data rendering through props, and responsive design.
-                    </p>
-                </Step>
-            </a> -->
         </div>
     </section>
     <section
