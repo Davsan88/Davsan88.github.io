@@ -11,12 +11,12 @@
         class="bg-slate-950 grid place-items-center px-4 text-5xl md:text-6xl -mt-10 sm:-mt-12 md:-mt-14 lg:-mt-16 mx-auto duration-200"
     >
         {#if step.type === "fa"}
-            <i class={step.icon} />
+            <i class={step.icon + " text-4xl sm:text-5xl md:text-6xl"}/>
         {:else}
             <img
                 src={step.icon}
                 alt={step.name}
-                class="step-icon"
+                class="object-contain w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 -translate-y-2"
                 onerror="this.style.display='none'"
             />
         {/if}
