@@ -117,7 +117,7 @@
         </div>
         <div class="relative shadow-2xl grid place-items-center">
             <img
-                src={"images/profilePicture.png"}
+                src={"images/profile_pic_portfolio.png"}
                 alt="Profile Picture"
                 class="object-cover z-[2] max-h-[70vh]"
             />
